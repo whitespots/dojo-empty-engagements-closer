@@ -2,7 +2,6 @@
 
 Just a small tool to close DefectDojo empty engagements
 
-TODO:
+`docker build -t dojo_closer .`
 
-- Add docker
-- Make it cron'ed
+`docker run -it --rm --name dojo_closer -e DOJO_TOKEN=frwgrgregergerg -e DOJO_BASE_URL=https://dojo.site.com `
