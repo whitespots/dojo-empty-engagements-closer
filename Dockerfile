@@ -1,5 +1,5 @@
 FROM python:alpine3.7
-LABEL MANTAINER="whitespots.io"
+LABEL MAINTAINER="whitespots.io"
 
 COPY requirements.txt .
 RUN pip install --upgrade pip && \
