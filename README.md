@@ -10,3 +10,4 @@ $ docker run --rm --name dojo_closer \
   -e DOJO_TOKEN=token_for_defectdojo_api \
   -e DOJO_BASE_URL=https://defectdojo.site.com 
 ```
+
